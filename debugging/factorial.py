@@ -1,11 +1,6 @@
 #!/usr/bin/python3
 import sys
-import os
 
-# Ensure the script is executable
-if not os.access(__file__, os.X_OK):
-    os.chmod(__file__, 0o755)
-    
 def factorial(n):
     result = 1
     while n > 1: #this is the condition , so just we need n -= 1 to make n reach 1 and stop the loop.
